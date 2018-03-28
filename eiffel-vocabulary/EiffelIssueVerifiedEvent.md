@@ -30,7 +30,7 @@ INCONCLUSIVE signifies that the verification of the issue was inconclusive.
 
 ## Links
 ### ISSUE
-__Required:__ No  
+__Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ Yes  
 __Description:__ Identifies an issue that this event pertains to.
@@ -186,8 +186,9 @@ __Description:__ The encrypted digest. The cryptographic hash function and the d
 ## Version History
 | Version   | Introduced in                                          | Changes                                 |
 | --------- | ------------------------------------------------------ | --------------------------------------- |
+| 1.1.1     | Current version | Replaced data.issues with links
 | 1.1.0     | [edition-toulouse](../../../tree/edition-toulouse)     | Multiple links of type FLOW_CONTEXT allowed. |
 | 1.0.0     | [edition-bordeaux](../../../tree/edition-bordeaux)     | Initial version.                        |
-| 1.1.1     | Current version | Replaced data.issues with links
+
 ## Examples
 * [Simple example](../examples/events/EiffelIssueVerifiedEvent/simple.json)
