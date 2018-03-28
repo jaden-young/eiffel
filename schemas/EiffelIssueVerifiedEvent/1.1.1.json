@@ -15,8 +15,8 @@
         },
         "version": {
           "type": "string",
-          "enum": [ "1.1.0" ],
-          "default": "1.1.0"
+          "enum": [ "1.1.1" ],
+          "default": "1.1.1"
         },
         "time": {
           "type": "integer"
@@ -99,50 +99,13 @@
     "data": {
       "type": "object",
       "properties": {
-        "issues": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "type": {
-                "type": "string",
-                "enum": [
-                  "BUG",
-                  "IMPROVEMENT",
-                  "FEATURE",
-                  "WORK_ITEM",
-                  "REQUIREMENT",
-                  "OTHER"
-                ]
-              },
-              "tracker": {
-                "type": "string"
-              },
-              "id": {
-                "type": "string"
-              },
-              "uri": {
-                "type": "string"
-              },
-              "value": {
-                "type": "string",
-                "enum": [
-                  "SUCCESS",
-                  "FAILURE",
-                  "INCONCLUSIVE"
-                ]
-              }
-            },
-            "required": [
-              "type",
-              "tracker",
-              "id",
-              "uri",
-              "value"
-            ],
-            "additionalProperties": false
-          }
-        },
+        "value": {
+        "type": "string",
+        "enum": [
+            "SUCCESS",
+            "FAILURE",
+            "INCONCLUSIVE"
+        ]},
         "customData": {
           "type": "array",
           "items": {
@@ -163,7 +126,7 @@
         }
       },
       "required": [
-        "issues"
+        "value"
       ],
       "additionalProperties": false
     },
