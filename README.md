@@ -26,8 +26,7 @@ __IMPORTANT NOTICE:__ The contents of this repository currectly reflect a __DRAF
 
 ## Contents
 1. [Introduction](./introduction/introduction.md)
-   1. [How to Propose Changes](./introduction/how-to-propose-changes.md)
-   1. [How to Contribute](./introduction/how-to-contribute.md)
+   1. [How to Propose Changes and Contribute](./CONTRIBUTING.md)
    1. [Code of Conduct](./CODE_OF_CONDUCT.md)
 1. Eiffel Syntax and Usage
    1. [Event Design Guidelines](./eiffel-syntax-and-usage/event-design-guidelines.md)
@@ -65,6 +64,7 @@ __IMPORTANT NOTICE:__ The contents of this repository currectly reflect a __DRAF
    1. [Delivery Interface](./usage-examples/delivery-interface.md)
    1. [Build Avoidance](./usage-examples/build-avoidance.md)
    1. [Pipeline Monitoring](./usage-examples/pipeline-monitoring.md)
+   1. [Test Execution](./usage-examples/test-execution.md)
    1. Reference Data Sets
       1. [Default](./usage-examples/reference-data-sets/default.md)
 1. Customization
