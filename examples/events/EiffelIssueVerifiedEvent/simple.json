@@ -36,6 +36,18 @@
     {
       "type": "ISSUE",
       "target": "aaaaaaaa-bbbb-5ccc-8ddd-eeeeeeeeeee5"
+    },
+    {
+      "type": "SUCCESSFUL_ISSUE",
+      "target": "aaaaaaaa-bbbb-5ccc-8ddd-eeeeeeeeeee6"
+    },
+    {
+      "type": "FAILED_ISSUE",
+      "target": "aaaaaaaa-bbbb-5ccc-8ddd-eeeeeeeeeee7"
+    },
+    {
+      "type": "INCONCLUSIVE_ISSUE",
+      "target": "aaaaaaaa-bbbb-5ccc-8ddd-eeeeeeeeeee8"
     }
   ]
 }
