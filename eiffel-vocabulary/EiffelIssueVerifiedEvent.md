@@ -16,33 +16,27 @@
 --->
 
 # EiffelIssueVerifiedEvent (IV)
-The EiffelIssueVerifiedEvent declares that an issue, typically a requirement, has been verified by some means. It is different from [EiffelTestCaseFinishedEvent](./EiffelTestCaseFinishedEvent.md) in that multiple test case executions may serve as the basis for a single verification or, conversely, multiple issues may be verified based on a single test case execution.
+The EiffelIssueVerifiedEvent declares that an issue, typically a requirement, has been verified by some means. It is different from [EiffelTestCaseFinishedEvent](./EiffelTestCaseFinishedEvent.md) in that multiple test case executions may serve as the basis for a single verification or, conversely, multiple issues may be verified based on a single test case execution. 
 
 ## Data Members
 
 ## Links
-### ISSUE
-__Required:__ Yes  
-__Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
-__Multiple allowed:__ Yes  
-__Description:__ Identifies an issue that this event pertains to.
-
 ### SUCCESFUL_ISSUE
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
-__Multiple allowed:__ Yes  
+__Multiple allowed:__ No  
 __Description:__ Identifies an issue that this event pertains to.
 
 ### FAILED_ISSUE
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
-__Multiple allowed:__ Yes  
+__Multiple allowed:__ No  
 __Description:__ Identifies an issue that this event pertains to.
 
 ### INCONCLUSIVE_ISSUE
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
-__Multiple allowed:__ Yes  
+__Multiple allowed:__ No  
 __Description:__ Identifies an issue that this event pertains to.
 
 ### IUT
