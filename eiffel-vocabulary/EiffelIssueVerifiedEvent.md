@@ -16,7 +16,7 @@
 --->
 
 # EiffelIssueVerifiedEvent (IV)
-The EiffelIssueVerifiedEvent declares that an issue, typically a requirement, has been verified by some means. It is different from [EiffelTestCaseFinishedEvent](./EiffelTestCaseFinishedEvent.md) in that multiple test case executions may serve as the basis for a single verification or, conversely, multiple issues may be verified based on a single test case execution. At least one link to an issue must be present, wheather is be "SUCCESSFUL_ISSUE", "FAILED_ISSUE", or "INCONCLUSIVE_ISSUE".
+The EiffelIssueVerifiedEvent declares that an issue, typically a requirement, has been verified by some means. It is different from [EiffelTestCaseFinishedEvent](./EiffelTestCaseFinishedEvent.md) in that multiple test case executions may serve as the basis for a single verification or, conversely, multiple issues may be verified based on a single test case execution. At least one link to an issue must be present, wheather it be "SUCCESSFUL_ISSUE", "FAILED_ISSUE", or "INCONCLUSIVE_ISSUE".
 
 ## Data Members
 
@@ -25,19 +25,19 @@ The EiffelIssueVerifiedEvent declares that an issue, typically a requirement, ha
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
-__Description:__ Identifies an issue in a succesfuly addressed state.
+__Description:__ Identifies an issue that has been succesfully verified.
 
 ### FAILED_ISSUE
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
-__Description:__ Identifies an issue in a failed to be addressed state.
+__Description:__ Identifies an issue that has failed verification.
 
 ### INCONCLUSIVE_ISSUE
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
-__Description:__ Identifies an issue in an inconclusive state.
+__Description:__ Identifies an issue for which this verification was inconclusive.
 
 ### IUT
 __Required:__ Yes  
