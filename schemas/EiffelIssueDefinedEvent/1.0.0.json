@@ -99,7 +99,7 @@
     "data": {
       "type": "object",
       "properties": {
-        "category": {
+        "type": {
           "type": "string",
           "enum": [
             "BUG",
@@ -141,6 +141,12 @@
           }
         }
       },
+      "required": [
+        "type",
+        "tracker",
+        "id",
+        "uri"
+      ],
       "additionalProperties": false
     },
     "links": {
