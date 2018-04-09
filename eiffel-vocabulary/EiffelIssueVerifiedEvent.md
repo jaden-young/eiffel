@@ -25,19 +25,19 @@ The EiffelIssueVerifiedEvent declares that an issue, typically a requirement, ha
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
-__Description:__ Identifies an issue that this event pertains to.
+__Description:__ Identifies an issue in a succesfuly addressed state.
 
 ### FAILED_ISSUE
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
-__Description:__ Identifies an issue that this event pertains to.
+__Description:__ Identifies an issue in a failed to be addressed state.
 
 ### INCONCLUSIVE_ISSUE
 __Required:__ Yes  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
-__Description:__ Identifies an issue that this event pertains to.
+__Description:__ Identifies an issue in an inconclusive state.
 
 ### IUT
 __Required:__ Yes  
