@@ -24,19 +24,19 @@ EiffelIssueVerifiedEvent has no data members, instead relying on its required li
 
 ## Links
 ### SUCCESFUL_ISSUE
-__Required:__ No
+__Required:__ No  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
 __Description:__ Identifies an issue that has been succesfully verified.
 
 ### FAILED_ISSUE
-__Required:__ No
+__Required:__ No  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
 __Description:__ Identifies an issue that has failed verification.
 
 ### INCONCLUSIVE_ISSUE
-__Required:__ No
+__Required:__ No  
 __Legal targets:__ [EiffelIssueDefinedEvent](../eiffel-vocabulary/EiffelIssueDefinedEvent.md)  
 __Multiple allowed:__ No  
 __Description:__ Identifies an issue for which this verification was inconclusive.
