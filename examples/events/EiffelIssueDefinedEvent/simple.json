@@ -7,15 +7,11 @@
 	},
 	"data": {
 		"type": "BUG",
-		"tracker": "DONE", //the hell's a tracker?
+		"tracker": "github",
 		"id": "aaaaaaaa-bbbb-5ccc-8ddd-eeeeeeeeeee0",
-		"uri": "http://zombo.com/"
+		"uri": "https://github.com/my-user/my-repo/issues/3"
 	},
 	"links": [
-		{
-			"type": "BUG",
-			"target": "aaaaaaaa-bbbb-5ccc-8ddd-eeeeeeeeeee5"
-		},
 		{
 			"type": "CAUSE",
 			"target": "aaaaaaaa-bbbb-5ccc-8ddd-eeeeeeeeeee8"
